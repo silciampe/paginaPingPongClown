@@ -1,0 +1,93 @@
+.sectionFormulario {
+    height: 480px;
+    margin-top: 75px;
+}
+
+.espacio {
+    background-color: yellow;
+    height: 100%;
+}
+.titulo {
+    padding-top: 0px;
+    text-align: center;
+    color: white;
+    
+}
+
+.consulta {
+    text-transform: uppercase;
+}
+.formulario {
+    width: 40%;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+    background-color: red;
+    opacity: 85%;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    /* margin-top: 5% ; */
+}
+  
+.formulario h3 {
+    color: yellow;
+    font-size: 1em;
+    font-weight: lighter;
+    text-align: center;
+    align-items: center;
+}
+  
+.form {
+    text-align: center;
+    height: 100%;
+}
+  
+.form > div {
+    padding-bottom: 20px;
+}
+.form input,textarea {
+    font-size: 1em;
+    width: 80%;
+    color: white;
+    padding: 20px;
+    }
+  
+.boton {
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 15px;
+    font-size: large;
+    padding: 1px 20px;
+    padding-top: 7px;
+    margin-bottom: 50px;
+    width: 25vw;
+    cursor: pointer;
+    word-wrap: break-word;
+}
+.boton :hover {
+    color: red;
+}
+
+.nombreTexto{
+    color: white;
+}
+
+.emailTexto {
+    color: white;
+}
+
+@media only screen and (max-width: 800px) {
+    .formulario {
+        width: 90%;
+        margin: auto;
+        overflow: hidden;
+        background-color: red;
+        opacity: 85%;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+    .boton {
+        width: 50vw;
+    }
+}
