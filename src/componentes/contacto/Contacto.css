@@ -1,10 +1,10 @@
 .sectionFormulario {
     height: 480px;
-    margin-top: 75px;
+    margin-top: 50px;
 }
 
 .espacio {
-    background-color: yellow;
+
     height: 100%;
 }
 .titulo {
@@ -16,21 +16,23 @@
 
 .consulta {
     text-transform: uppercase;
+    
 }
 .formulario {
-    width: 40%;
+    width: 30%;
     height: 100%;
     margin: auto;
     overflow: hidden;
     background-color: red;
     opacity: 85%;
     padding-top: 20px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+    
     /* margin-top: 5% ; */
 }
   
 .formulario h3 {
-    color: yellow;
+    
     font-size: 1em;
     font-weight: lighter;
     text-align: center;
@@ -40,6 +42,8 @@
 .form {
     text-align: center;
     height: 100%;
+    background-color: yellow;
+    
 }
   
 .form > div {
@@ -51,7 +55,15 @@
     color: white;
     padding: 20px;
     }
+
+    input {
+        margin-top: 15px;
+    }
   
+    textarea {
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
 .boton {
     color: white;
     background-color: blue;
@@ -60,8 +72,8 @@
     font-size: large;
     padding: 1px 20px;
     padding-top: 7px;
-    margin-bottom: 50px;
     width: 25vw;
+    height: 50px;
     cursor: pointer;
     word-wrap: break-word;
 }
